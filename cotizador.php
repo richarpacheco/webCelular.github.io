@@ -17,7 +17,7 @@
           <div>
               
            <ul class="menu">
-              <li> <a href="main.html">Inicio</a></li> <!--li>a=lista+enlace interno-->
+              <li> <a href="index.html">Inicio</a></li> <!--li>a=lista+enlace interno-->
             
           </ul>
   
