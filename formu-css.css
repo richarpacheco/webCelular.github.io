@@ -1,0 +1,122 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.header,.footer{
+    text-align: center;
+    padding:1%;
+    background-color: #000000;
+    color: #ffff;
+}
+.footer{
+    margin-top:700px;
+}
+a{
+    color: #00f0e8;
+}
+body{
+    background-image:url(Recursos/nature.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.menu{
+    
+    display: inline-flex;
+    list-style: none;
+
+}
+li{
+    padding:10px 12px;
+}
+
+.cent{/*Formulario*/
+   
+margin-top:20px;
+text-align: center;
+background-color: rgba(255, 255, 255, 0.998);
+margin-right:30%;
+margin-left:30%;
+border-radius: 30px;
+height: 500px;
+
+}
+
+.controls{
+    color:#002b91;
+    border: none;
+    border-bottom: 1px solid #000000;
+    background: none;
+    outline: none;
+    padding:10px 12px;
+}
+select{
+    padding:3px 12px;
+}
+.buttons{
+ 
+    border-radius: 5px;
+   border:none;
+    padding:10px 22px;
+    background: linear-gradient(#8e5c85,#7f93f8);
+   animation:alternate-reverse animacionB 5s infinite;
+    
+}
+
+
+.buttons:hover{
+    background: linear-gradient(#914684,#5163bf);
+}
+
+/*MEDIDAS RESPONSIVE*/
+@media only screen and (min-width:320px) and (max-width:500px) {
+    .cent{/*Formulario*/
+        margin-top:20px;
+        text-align: center;
+        background-color: rgba(255, 255, 255, 0.998);
+        margin-right:10px;
+        margin-left:10px;
+        border-radius: 30px;
+        height: 500px;
+        
+        }
+
+        #pay{
+            width: 170px;
+        }
+        
+}
+
+@media only screen and (min-width:500px) and (max-width:900px) {
+    .cent{/*Formulario*/
+        margin-top:20px;
+        text-align: center;
+        background-color: rgba(255, 255, 255, 0.998);
+        margin-right:30px;
+        margin-left:30px;
+        border-radius: 30px;
+        height: 500px;
+        
+        }
+
+        select{
+            padding:3px 1px;
+        }
+        
+}
+
+.aheader{
+
+    color: #00f0e8;
+    animation: alternate-reverse 3s animacionC infinite;
+}
+
+@keyframes animacionC{
+    25%{color: #dd1212;}
+    50%{color: #0a1586;}
+    75%{color: #179b34;}
+    100%{color: #3b1246;}
+}

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formu-css.css">
+
+    <title>Formulario</title>
+</head>
+<body>
+
+    <div class="header">
+        <header><h1>PhoneShop</h1>
+          
+            <div>
+              
+                <ul class="menu">
+                   <li> <a class="aheader" href="main.html">Inicio</a></li> <!--li>a=lista+enlace interno-->
+                    <li><a class="aheader" href="carrito.html">Celulares</a></li>
+               </ul>
+       
+               </div>
+      
+      </header>
+    </div>
+
+
+    
+    <div class="cent">
+        <form action="cotizador.php" method="post">
+            <label for="nombre">Nombre:</label>
+            <input  class="controls" type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre" required><br><br>
+
+            <label for="apellido">Apellido:</label>
+            <input  class="controls" type="text" name="apellido" id="ape" placeholder="Ingrese su apellido" required><br><br>
+            
+            <label for="telefono">Telefono:</label>
+            <input  class="controls"  type="tel" name="telefono" id="tel" placeholder="Ingrese su telefono" required><br><br>
+
+            <label for="direccion">Direccion:</label>
+            <input  class="controls" type="text" name="direccion" id="dire" placeholder="Ingrese su direccion" required><br><br>
+            <label for="tarjeta">Tarjeta:</label>
+            <input type="number" class="controls" name="tarjeta" id="target" placeholder="Ingrese numeración"><br><br>
+
+            <label for="productos">Producto:</label>
+            <select name="productos" id="productos" required>
+                <option value="">-Seleccionar</option>
+                <option value="Samsung Galaxy A32">Samsung Galaxy A32</option>
+                <option value="HUAWEI Y8P 2020">HUAWEI Y8P 2020</option>
+                <option value="XIAOMI Redmi 9C">XIAOMI Redmi 9C</option>
+            </select><br>
+
+
+
+            <label for="pago">Pagar con:</label>
+            <select name="pago" id="pay" required>
+                
+                <option value="">-Seleccionar</option>
+                <option value="Transferencia Bancaria" >Transeferencia bancaria= -10%</option>
+                <option value="Tarjeta de credito" >Tarjeta de credito</option>
+                <option value="Tarjeta de debito" >Tarjeta de debito</option>
+            </select><br>
+
+
+
+            <label for="retiro">Retirar en:</label>
+            <select name="retiro" id="retiro" required>
+                <option value="">-Seleccionar</option>
+                <option value="Local">Local</option>
+                <option value="Enviar a domicilio">Enviar a domicilio=+U$S 5,00</option>
+                
+            </select>
+            <br><br>
+
+           
+            <div >
+                <input type="submit" class="buttons" name="submit1" value="Enviar">
+                <input type="reset" class="buttons" value="Borrar">
+            </div>
+  
+            
+    
+        </form>
+    </div>
+
+
+    
+
+
+
+
+
+
+
+
+    <div class="footer">
+        <footer>Desarollado por:Richard Pacheco 3°BY</footer>
+    </div>
+
+
+
+</body>
+</html>

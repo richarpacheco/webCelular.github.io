@@ -1,0 +1,105 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.datos{
+
+    background:none;
+    height:50vh;
+    margin-left:30%;
+    margin-right:30%;
+    margin-top:10px;
+    background:#ffffff;
+    color:#000000;
+    font-size:25px;
+}
+
+.header,.footer{
+    text-align: center;
+    color: #ffffff;
+    background-color: #000000;
+
+}
+
+body{
+    background-image: url(Recursos/nature.jpg);
+    background-size: 100% 1024px;
+    background-repeat: no-repeat;
+}
+
+.footer{
+    padding:3%;
+    margin-top:500px;
+}
+
+.bots{
+    text-align: center;
+}
+.botons{
+ 
+    font-size: 15px;
+    background: #c75e1c;
+    border-radius: 10px;
+    border: none;
+}
+
+@media only screen and (min-width:320px) and (max-width:501px){
+
+    
+    
+body{
+    background-image: url(Recursos/nature.jpg);
+    background-size: 100% 900px;
+    background-repeat: no-repeat;
+}
+
+}
+
+
+a{
+    color: #00caf7;
+    font-size: 25px;
+    text-decoration: none;
+}
+.abtn{
+    color: #000000;
+}
+
+
+
+@media only screen and (min-width:320px) and (max-width:500px) {
+
+    body{
+        background-size: 100% 1050px;
+    }
+    .datos{
+
+        background:none;
+        height:50vh;
+        margin-left:30px;
+        margin-right:30px;
+        margin-top:10px;
+        background:#ffffff;
+        color:#000000;
+        font-size:20px;
+
+    }
+}
+
+@media only screen and (min-width:501px) and (max-width:768px) {
+    
+.datos{
+
+    background:none;
+    height:50vh;
+    margin-left:120px;
+    margin-right:120px;
+    margin-top:10px;
+    background:#ffffff;
+    color:#000000;
+    font-size:20px;
+}
+}
